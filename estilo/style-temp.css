@@ -28,8 +28,8 @@ a#home{
     text-decoration: none;
 }
 a#home:hover{
-    background-color: #000000;
+    background-color: #5959595a;
     box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.389);
     padding-top: 9px;
-    padding-bottom: 9px;
+
 }
