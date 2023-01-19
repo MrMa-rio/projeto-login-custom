@@ -9,18 +9,18 @@ function mixcolors(){
     const mixOfColors2 = []
     let numeroIndex2 = 0
 
-    for(let x = 0; x<100;x++){
+    for(let x = 0; x<200;x++){
 
         
 
             const color = `rgb(${x}, ${x}, ${x})`
-            const color2 = `rgb(${100-x}, ${100-x}, ${100-x})`
+            const color2 = `rgb(${200-x}, ${200-x}, ${200-x})`
             mixOfColors.push(color)
             mixOfColors2.push(color2)
         
         
     }
-    for(let x = 100; x>=1;x--){
+    for(let x = 200; x>=1;x--){
 
         
 
