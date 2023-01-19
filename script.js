@@ -39,7 +39,7 @@ function mixcolors(){
     
         
         colorIndex = (colorIndex + 1) % mixOfColors.length
-    }, 70)
+    }, 48)
 
 }
 
