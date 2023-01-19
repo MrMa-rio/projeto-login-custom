@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root{
+
+    --backcolor: rgb(29, 41, 47);
+    --backcolor2: rgb(61, 77, 88);
+    --color1:#446d88;
+    --color2:#02111B;
+    --color3:#596157;
+    --color4:#750806fe;
+    --color5:#55809f42;
+    --color6:#517993;
+    
+}
+*{
+
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,var(--backcolor) 80%,var(--backcolor2) 100%);
+    background-repeat: no-repeat;
+    
+    
+}
+main{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom,var(--color2)  80%, var(--color) 110%);
+    background-repeat: no-repeat;
+}
+section#login{
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: var(--color1);
+    max-width: 87vw;
+    min-height: 60vh;
+    max-height: 70vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.405) ;
+    transition: width 0.4s;
+    transform: translate(-50%, -50%);
+}
+div#imagem{
+    
+    background-image: url(../imagens/balao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    box-shadow: 0px 0.2px 5px var(--color2);
+    box-sizing: content-box;
+    border: 1.4px solid var(--color2);
+    
+}
+div#formulario{
+    margin-top: 20px ;
+    padding: 10px;
+    text-align: center;
+}
+div#formulario a{
+    font-size: 0.7em;
+}
+div.campo span{
+    background-color: #416d895b;
+    width: 25px;
+    height: 39px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+form div.campo input{
+    overflow: hidden;
+    background-color: var(--color6);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    border-bottom: 2px solid var(--backcolor);
+    
+}
+
+form input.login {
+    padding-top: 4px;
+    padding-left: 3px;
+    width: 90%;
+    height: 34px;
+    background-color: #416d8900;
+    border: none;
+}
+
+
+
+form > input[type=submit]{
+    
+    display: block;
+    border: none;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.187);
+
+}
+form a.botao {
+    
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: var(--color2);
+    border: 1px solid var(--color2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.286);
+    text-decoration: none;
+
+}
+form a.botao:hover{
+    color: #7dbfe7;
+    background-color: #416d89;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.389);
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+::-webkit-scrollbar{
+   
+    background-color: #40708d;
+    height: 2px;
+    
+    
+}
+

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+
+    section#login{
+
+        min-width: 768px;
+        max-height: 70vh;
+    }
+    div#imagem{
+        float: left;
+        width: 28%;
+        background-size: 60vh;
+        background-position: right center;
+        min-height: 80vh;
+        max-height: 100vh;
+        
+    }
+    div#formulario {
+        margin-top: 10vh;
+    }
+    div#formulario a{
+        font-size: 0.8em;
+    }
+
+    form div.campo input{
+        overflow: hidden;
+        background-color: #416d8922;
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        margin: 5px 0px;
+    
+    }
+
+    form > input[type=submit]{
+    
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+        width: 60%;
+        margin-left: 35%;
+        height: 40px;
+    }
+    form input[type=submit]:hover{
+        color: #ffffff;
+        background-color: var(--backcolor);
+        box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.468);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        
+    }
+    form a.botao {
+    
+        display: block;
+        width: 60%;
+        margin-top: 5px;
+        margin-left: 35%;
+    
+    }
+    form a.botao:hover{
+        color: #7dbfe7;
+        background-color: #416d89;
+        box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.389);
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    ::-webkit-scrollbar-track{
+        width: 0px;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+
+    section#login{
+        min-width: 1100;
+        max-height: 90vh;
+        
+        
+    }
+    div#imagem{
+        float:left;
+        width: 40%;
+        min-height: 48vw;
+        background-size: 180%;
+        background-position: left center;
+    }
+    
+    div#formulario {
+        margin-top: 10%;
+    }
+    section#login > div#formulario h1{
+        font-size: 2.5em;
+        
+    }
+    section#login > div#formulario p{
+        font-size: 1.4em;
+        
+    }
+    div#formulario a{
+        font-size: 0.9em;
+    }
+    
+    form div.campo input{
+        overflow: hidden;
+        background-color: #3d6883b8;
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        margin: 5px 0px;
+    
+    }
+
+    form > input[type=submit]{
+    
+        display: block;
+        border: none;
+        color: #ffffff;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
+        width: 50%;
+        margin-left: 45%;
+        
+        height: 40px;
+        border-radius: 10px;
+        
+    
+    }
+    form input[type=submit]:hover{
+        color: #ffffff;
+        background-color: var(--backcolor);
+        box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.468);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        
+    }
+    form a.botao {
+    
+        
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 45%;
+    
+    }
+    form a.botao:hover{
+        color: #7dbfe7;
+        background-color: #416d89;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.259);
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    
+}
