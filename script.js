@@ -6,17 +6,17 @@ function mixcolors(){
     
     
     const mixOfColors = []
-    const mixOfColors2 = []
-    let numeroIndex2 = 0
+    const mixOfColorsSecond = []
+    let numeroIndexSecond = 0
 
     for(let x = 0; x<200;x++){
 
         
 
             const color = `rgb(${x}, ${x}, ${x})`
-            const color2 = `rgb(${200-x}, ${200-x}, ${200-x})`
+            const colorSecond = `rgb(${200-x}, ${200-x}, ${200-x})`
             mixOfColors.push(color)
-            mixOfColors2.push(color2)
+            mixOfColorsSecond.push(colorSecond)
         
         
     }
@@ -25,17 +25,17 @@ function mixcolors(){
         
 
         const color = `rgb(${x}, ${x}, ${x})`
-        const color2 = `rgb(${numeroIndex2}, ${numeroIndex2}, ${numeroIndex2})`
+        const colorSecond = `rgb(${numeroIndexSecond}, ${numeroIndexSecond}, ${numeroIndexSecond})`
         mixOfColors.push(color)
-        mixOfColors2.push(color2)
-        numeroIndex2++
+        mixOfColorsSecond.push(colorSecond)
+        numeroIndexSecond++
     
     
 }
 
     setInterval(() => {
         
-        changeBackColor.backgroundImage = `linear-gradient(to bottom, ${mixOfColors[colorIndex]}, ${mixOfColors2[colorIndex]})`
+        changeBackColor.backgroundImage = `linear-gradient(to bottom, ${mixOfColors[colorIndex]}, ${mixOfColorsSecond[colorIndex]})`
     
         
         colorIndex = (colorIndex + 1) % mixOfColors.length
